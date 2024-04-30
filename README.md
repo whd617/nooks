@@ -1,6 +1,6 @@
 # nooks
 
-React Hook to update your document's title
+Collection of sexy React Hooks ready to install with NPM
 
 - [x]  useTabs
 - [x]  useTitle
@@ -16,5 +16,3 @@ React Hook to update your document's title
 - [x]  useNetwork
 - [x]  useNotification
 - [x]  useAxios
-- [x]  useNavigation
-- [x]  useLocalStorage

@@ -1,0 +1,25 @@
+{
+  "name": "@jnooks/use-title",
+  "version": "1.0.2",
+  "description": "React Hook to update your doucment's title",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whd617/nooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "title"
+  ],
+  "author": "Jonghyeon Choi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whd617/nooks/issues"
+  },
+  "homepage": "https://github.com/whd617/nooks#readme",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

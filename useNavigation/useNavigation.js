@@ -1,14 +1,15 @@
+import { useEffect, useState } from "react";
+
 export const useNavigation = () => {
 	const [state, setState] = useState({})
 	useEffect(()=> {
 	  function success(position) {
-		console.log(position.heading  );
 		let latitude= position.coords.latitude
 		let longitude= position.coords.longitude
 		setState({latitude,longitude})
 	  }
 	  function error() {
-		alert("죄송합니다. 위치 정보를 사용할 수 없습니다.")
+		throw Error ("Doesn't find a position")
 	  }
 	  const options = {
 		enableHighAccuracy: true,
